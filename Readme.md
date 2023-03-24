@@ -8,6 +8,7 @@ The basis of the VHDL design for the sequence detector comes from the state diag
 The possible states ABCDEF are advanced through while corresponding to the correct input sequence (“01101”). Since overlapping is allowed, rather than always returning to state A upon incorrect input, it will return to the latest state that still corresponds to the correct sequence. 
 
 Possible flow paths for sequence values:
+
 ![Seq](images/SeqDet.png)
 
 
